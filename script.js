@@ -1,6 +1,6 @@
 function fun() {
     let number = document.getElementById('id').value;
-    var randomButton = Math.ceil(Math.random() * number);
+    let randomButton = Math.ceil(Math.random() * number);
     for (let i = 1; i <= number; ++i) {
         button = document.createElement("button");
         button.innerHTML = 'Button';
